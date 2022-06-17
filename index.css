@@ -1,0 +1,155 @@
+body {
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 13vw;
+}
+
+.login-form {
+    padding: 50px;
+}
+
+.trial {
+    background-color: hsl(248, 32%, 49%);
+    border: 2px solid hsl(248, 32%, 49%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 38vw;
+    height: 7vh;
+}
+
+#trial {
+    padding: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+form {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    background-color: white;
+    height: 60vh;
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input[type=text] {
+    width: 28vw;
+    padding-left: 20px;
+    color: hsl(249, 10%, 26%);
+    height: 7vh;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 0.5rem;
+
+}
+
+input[type=password] {
+    width: 28vw;
+    padding-left: 20px;
+    height: 7vh;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 0.5rem;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 4px;
+    color: hsl(249, 10%, 26%);
+
+}
+
+input[type=email] {
+    width: 28vw;
+    height: 7vh;
+    padding-left: 20px;
+    text-align: justify;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 0.5rem;
+}
+
+button {
+    width: 30vw;
+    color: white;
+    height: 7vh;
+    background-color: hsl(154, 59%, 51%);
+    border: 2px solid hsl(154, 59%, 51%);
+    border-radius: 0.5rem;
+}
+
+#terms {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
+
+@media(max-width:650px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 100;
+    }
+
+    #text-2 {
+        font-size: 12px;
+    }
+
+    .trial {
+        width: 90vw;
+        height: 10vh;
+        font-size: 13px;
+    }
+
+    form {
+        width: 90vw;
+    }
+
+    input[type=text] {
+        width: 75vw;
+    }
+
+    input[type=password] {
+        width: 75vw;
+    }
+
+    input[type=email] {
+        width: 75vw;
+    }
+
+    button {
+        width: 80vw;
+    }
+
+    #Terms {
+        font-size: 30px;
+    }
+
+}
